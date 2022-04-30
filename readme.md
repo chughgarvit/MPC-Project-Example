@@ -4,7 +4,7 @@
 .
 .
 .
-## Instructor: Dr. Sumit Kalra (Assistant Professor, Department of Computer Science & Engineering @ Indian Institute of Technology, Jodhpur)
+## Instructor: Dr. First_Name Last_Name (Assistant Professor, Department of Computer Science & Engineering @ Indian Institute of Technology, Jodhpur)
 
 ## Assessment 1: Question 2
 .
