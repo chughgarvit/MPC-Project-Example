@@ -1,0 +1,113 @@
+body {
+    background-color: dodgerblue;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#toolset {
+    background-color: antiquewhite;
+    height: 60px;
+    width: 86%;
+    margin-top: 32px;
+}
+
+#notes {
+    background-color: bisque;
+    width: 86%;
+    padding-bottom: 2em;
+    /* padding: 16px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#add-note {
+    margin: 1em;
+    margin-right: 0;
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    border: 8px lightgray dashed;
+}
+
+#add-note:hover {
+    border-color: gray;
+}
+
+.note {
+    margin: 1em;
+    margin-right: 0;
+    padding: 1em;
+    width: 214px;
+    height: 234px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.note h1 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.note p {
+    margin-top: 0.6em;
+}
+
+.note:hover {
+    background-color: aqua;
+}
+
+#note-form {
+    background-color: aquamarine;
+    position: absolute;
+    padding: 1.5em;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+    height: fit-content;
+}
+
+#note-form .title {
+    width: 98%;
+}
+
+#note-form .text {
+    padding: 4px;
+    min-width: 98%;
+    max-width: 98%;
+    height: 200px;
+    margin-top: 1em;
+}
+
+#note-form .ok {
+    margin-top: 1em;
+    margin-right: 12px;
+    height: 32px;
+}
+
+#note-form .cancel {
+    margin-top: 1em;
+    margin-right: 12px;
+    height: 32px;
+}
+
+#wrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.5);
+}
+
+footer{
+    margin-top: 20vh;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}

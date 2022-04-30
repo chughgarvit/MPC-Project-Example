@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Notes</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="root">
+        <div id="toolset">
+            
+        </div>
+
+        <div id="notes">
+            <div class="note">
+                <h1>Example note</h1>
+                <p>This is a text inside an example note</p>
+            </div>
+
+            <div id="add-note">
+
+            </div>
+        </div>
+
+    </div>
+    <div id="wrapper">
+        <div id="note-form">
+            <input class="title" name="noteTitle" type="text" placeholder="Enter a note title">
+            <textarea class="text" name="noteText" placeholder="Enter a note text"></textarea>
+
+            <button class="ok" onclick="addNote()">Add note</button>
+            <button class="cancel" onclick="closeNoteForm()">Cancel</button>
+        </div>
+    </div>
+    <footer>
+        Virtualization and Cloud Computing <br><br>
+        Assessment 1: Question 2 <br>
+        Made by Garvit Chugh (M20CS018)<br>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
